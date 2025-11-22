@@ -22,14 +22,14 @@
             ]
           },
           {
-            "group": "Customization",
+            "group": "Search & monitor domains",
             "pages": [
               "essentials/settings",
               "essentials/navigation"
             ]
           },
           {
-            "group": "Writing content",
+            "group": "Organize your domains",
             "pages": [
               "essentials/markdown",
               "essentials/code",
@@ -43,6 +43,29 @@
               "ai-tools/cursor",
               "ai-tools/claude-code",
               "ai-tools/windsurf"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Guides",
+        "groups": [
+          {
+            "group": "Buy domains",
+            "pages": [
+              "essentials/markdown",
+              "essentials/code",
+              "essentials/images",
+              "essentials/reusable-snippets"
+            ]
+          },
+          {
+            "group": "DNS",
+            "pages": [
+              "api-reference/endpoint/get",
+              "api-reference/endpoint/create",
+              "api-reference/endpoint/delete",
+              "api-reference/endpoint/webhook"
             ]
           }
         ]
