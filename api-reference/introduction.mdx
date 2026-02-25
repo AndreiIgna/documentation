@@ -1,28 +1,32 @@
 ---
-title: "API Reference"
-description: "Example section for showcasing API endpoints"
+title: "Domo APIs Overview"
+description: "How to use our APIs"
+sidebarTitle: "Overview"
 ---
 
-<Note>
-  If you're not looking to build API reference documentation, you can delete this section by removing the api-reference folder.
-</Note>
+Cursor provides multiple APIs for programmatic access to domains & TLDs data.
 
-## Welcome
+## Available APIs
 
-There are two ways to build API documentation: [OpenAPI](https://mintlify.com/docs/api-playground/openapi/setup) and [MDX components](https://mintlify.com/docs/api-playground/mdx/configuration). For the starter kit, we are using the following OpenAPI specification.
+| API            | Description                                                                          |
+| -------------- | ------------------------------------------------------------------------------------ |
+| Domains API    | Retrieve detailed information about domain names: lookup, RDAP, Dns Records, history |
+| TLDs API       | List of all TLDs with info                                                           |
+| Registrars API | Information about domain name Registrars                                             |
 
-<Card icon="leaf" href="https://github.com/mintlify/starter/blob/main/api-reference/openapi.json" title="Plant Store Endpoints">
-  View the OpenAPI specification file
-</Card>
+### API Host
 
-## Authentication
+This is the production API host:
 
-All API endpoints are authenticated using Bearer tokens and picked up from the specification file.
+- `https://domains-api.com`
 
-```json
-"security": [
-  {
-    "bearerAuth": []
-  }
-]
-```
+### Authentication
+
+The API uses API keys to authenticate requests. You can view and manage your API keys in [your account page](https://dmns.app/account/api-keys).
+
+It can be used in 2 ways when making requests:
+
+- As a query parameter in url: `.../domains/example.com?key=sk_abc123`
+- As the Authorization header: `Authorization: Bearer sk_abc123`
+
+Check the examples for more details.

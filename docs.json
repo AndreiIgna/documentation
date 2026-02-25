@@ -11,7 +11,7 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "Docs",
+        "tab": "Documentation",
         "groups": [
           {
             "group": "Getting started",
@@ -40,16 +40,16 @@
         ]
       },
       {
-        "tab": "API",
+        "tab": "API Reference",
         "groups": [
           {
-            "group": "API documentation",
+            "group": "API Overview",
             "pages": [
               "api-reference/introduction"
             ]
           },
           {
-            "group": "Endpoint examples",
+            "group": "Domains API",
             "pages": [
               "api-reference/endpoint/get",
               "api-reference/endpoint/create",
