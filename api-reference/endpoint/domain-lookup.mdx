@@ -8,9 +8,13 @@ This endpoint builds on top of the RDAP / WHOIS data. It normalizes fields betwe
 
 Use this endpoint to get availability, registrant, status and more detailed info.
 
+### Path Parameters
+
 <ParamField path="domain" type="string" required>
   Valid top-level domain name for lookup
 </ParamField>
+
+### Query Parameters
 
 <ParamField query="cache_ttl" default="3600" type="number">
   Interval for acceptable cached data
