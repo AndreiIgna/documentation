@@ -1,0 +1,17 @@
+---
+title: "Domain RDAP"
+description: "Get fresh RDAP data for any domain"
+api: "GET /domains/{domain}/rdap-raw"
+---
+
+Use this endpoint if you need domain RDAP data.
+
+Most fields are normalized to a common format, so dates, statuses, NS and more fields have same labels across different TLDs.
+
+RDAP servers are auto-discovered.
+
+### Path Parameters
+
+<ParamField path="domain" type="string" required>
+  Valid top-level domain name for lookup
+</ParamField>
