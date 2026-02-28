@@ -52,18 +52,18 @@
             "group": "Domains API",
             "pages": [
               "api-reference/endpoint/domain-lookup",
-              "api-reference/endpoint/domain-lookup-copied-1",
-              "api-reference/endpoint/domain-lookup-copied-2",
-              "api-reference/endpoint/domain-lookup-copied-5",
-              "api-reference/endpoint/domain-lookup-copied-3",
-              "api-reference/endpoint/domain-lookup-copied-4"
+              "api-reference/endpoint/domain-whois",
+              "api-reference/endpoint/domain-rdap",
+              "api-reference/endpoint/domain-dns-records",
+              "api-reference/endpoint/domain-history",
+              "api-reference/endpoint/domain-website-info"
             ]
           },
           {
             "group": "TLDs API",
             "pages": [
-              "api-reference/endpoint/domain-lookup-copied-6",
-              "api-reference/endpoint/domain-lookup-copied-7"
+              "api-reference/endpoint/tlds",
+              "api-reference/endpoint/tld-detail"
             ]
           }
         ]
