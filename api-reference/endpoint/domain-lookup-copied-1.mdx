@@ -1,0 +1,29 @@
+---
+title: "Domain WHOIS"
+description: "Get fresh WHOIS data for any domain"
+api: "GET /domains/{domain}/whois"
+---
+
+Use this endpoint if you need domain WHOIS data.
+
+Most fields are normalized to a common format, so dates, statuses, NS and more fields have same labels across different TLDs.
+
+### Path Parameters
+
+<ParamField path="domain" type="string" required>
+  Valid top-level domain name for lookup
+</ParamField>
+
+### Query Parameters
+
+<ParamField query="follow" default="1" type="number">
+  How many WHOIS servers to query. `1` Registry WHOIS server, `2` Registry + Registrar WHOIS servers
+</ParamField>
+
+<ParamField query="raw" type="string" placeholder="true">
+  Set to `true` to return the raw WHOIS data in the response
+</ParamField>
+
+<ParamField query="ignorePrivacy" type="string">
+  Blank/Redacted data is removed by default. Set to `true` to disable this feature, and return the redacted data
+</ParamField>

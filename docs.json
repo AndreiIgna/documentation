@@ -52,9 +52,7 @@
             "group": "Domains API",
             "pages": [
               "api-reference/endpoint/domain-lookup",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
+              "api-reference/endpoint/domain-lookup-copied-1"
             ]
           }
         ]
