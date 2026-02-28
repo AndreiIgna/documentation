@@ -62,7 +62,8 @@
           {
             "group": "TLDs API",
             "pages": [
-              "api-reference/endpoint/domain-lookup-copied-6"
+              "api-reference/endpoint/domain-lookup-copied-6",
+              "api-reference/endpoint/domain-lookup-copied-7"
             ]
           }
         ]
