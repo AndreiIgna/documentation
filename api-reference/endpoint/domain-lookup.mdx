@@ -10,7 +10,7 @@ Use this endpoint to get availability, registrant, status and more detailed info
 
 ### Path Parameters
 
-<ParamField path="domain" type="string" required>
+<ParamField path="domain" type="string" required placeholder="domo.domains">
   Valid top-level domain name for lookup
 </ParamField>
 
@@ -19,3 +19,13 @@ Use this endpoint to get availability, registrant, status and more detailed info
 <ParamField query="cache_ttl" default="3600" type="number">
   Interval for acceptable cached data
 </ParamField>
+
+### Response
+
+<ResponseField name="domain" type="string" default="domo.domains">
+  Enter a description
+</ResponseField>
+
+<ResponseField name="keyword" type="string" default="domo">
+  Enter a description
+</ResponseField>
