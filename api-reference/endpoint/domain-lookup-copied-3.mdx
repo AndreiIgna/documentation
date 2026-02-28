@@ -1,0 +1,19 @@
+---
+title: "Domain History"
+description: "A timeline of updates for a domain"
+api: "GET /domains/{domain}/history"
+---
+
+Endpoint to use to discover updates for a domain name.
+
+Different type of history items are denoted by the `type` field:
+
+- `type=info` Domain info change, detected in RDAP or WHOIS
+- `type=url` Domain mention on the internet. The source url will be set in `url` field
+- `type=sale` A public sale detected for this domain
+
+### Path Parameters
+
+<ParamField path="domain" type="string" required>
+  Domain name for which history is needed
+</ParamField>
