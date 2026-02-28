@@ -51,7 +51,7 @@
           {
             "group": "Domains API",
             "pages": [
-              "api-reference/endpoint/get",
+              "api-reference/endpoint/domain-lookup",
               "api-reference/endpoint/create",
               "api-reference/endpoint/delete",
               "api-reference/endpoint/webhook"
@@ -86,6 +86,14 @@
      "cursor",
      "vscode"
    ]
+  },
+  "api": {
+    "mdx": {
+      "server": "https://domains-api.com/",
+      "auth": {
+        "method": "bearer"
+      }
+    }
   },
   "footer": {
     "socials": {
