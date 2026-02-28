@@ -1,0 +1,33 @@
+---
+title: "DNS Records"
+description: "Check DNS records and subdomains"
+api: "GET /domains/{domain}/dns-records"
+---
+
+List all DNS Records (subdomains, A, MX, CNAME, TXT, etc) for a domain.
+
+Subdomains are auto-disovered, and hints for more obscure ones can be sent to the API to check for.
+
+### Path Parameters
+
+<ParamField path="domain" type="string" required>
+  Domain name for which history is needed
+</ParamField>
+
+### Header Parameters
+
+<ParamField header="Accept" default="text/plain" type="string">
+  - `text/plain`  return DNS records as text lines
+
+  - `application/json` return DNS records as JSON object
+</ParamField>
+
+### Query Parameters
+
+<ParamField query="type" type="string" placeholder="A, AAAA, CNAME">
+  Which records to return: A, AAAA, MX, etc. Leave empty to return all
+</ParamField>
+
+<ParamField query="subdomain" type="string">
+  Extra subdomain to check for
+</ParamField>
